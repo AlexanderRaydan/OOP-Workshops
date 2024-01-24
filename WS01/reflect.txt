@@ -1,0 +1,26 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #1 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+In this workshop we focused mainly on the handling of modules in C++, 
+creating .cpp and .h files with the definition and declaration of the 
+functions. In this way, the program logics were separated in different 
+modules (files, graphics, io and students). The correct import of these
+modules was also done so that the logic can be used in other parts of 
+the code.
+
+The most complicated thing was to understand how to import one module
+into another and the correct use of the namespace.
