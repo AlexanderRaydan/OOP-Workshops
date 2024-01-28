@@ -17,6 +17,7 @@ provided to complete my workshops and assignments.
 
 #include <iostream>
 #include "Guest.h"
+#include <cstring>
 
 using namespace std;
 
@@ -36,11 +37,8 @@ namespace seneca
         }
         else
         {
-            guest.m_firstName = new char[1];
-            strcpy(guest.m_firstName, "");
-
-            guest.m_lastName = new char[1];
-            strcpy(guest.m_lastName, "");
+            guest.m_firstName = nullptr;
+            guest.m_lastName = nullptr;
         }
         guest.m_adult = age >= 18;
     }
@@ -52,13 +50,13 @@ namespace seneca
     void print(const Guest &guest)
     {
 
-        if (guest.m_firstName && guest.m_lastName && guest.m_firstName[0] && guest.m_lastName[0])
+        if (guest.m_firstName && guest.m_lastName && strcmp(guest.m_firstName, " ") && strcmp(guest.m_lastName, " "))
         {
             cout << guest.m_firstName << " " << guest.m_lastName;
 
             if (!guest.m_adult)
             {
-                cout << "(child)";
+                cout << "(Child)";
             }
 
             cout << endl;
@@ -98,5 +96,8 @@ namespace seneca
     {
         delete[] guest.m_firstName;
         delete[] guest.m_lastName;
+
+        guest.m_firstName = nullptr;
+        guest.m_lastName = nullptr;
     }
 }

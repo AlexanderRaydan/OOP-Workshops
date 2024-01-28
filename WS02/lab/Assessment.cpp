@@ -1,5 +1,22 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #2
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
 
 #include <iostream>
+#include <cstring>
 #include "Assessment.h"
 
 using namespace std;
@@ -22,12 +39,7 @@ namespace seneca
     // Read string after ","
     bool read(char *cstr, FILE *fptr)
     {
-        if (fgetc(fptr) != ',')
-        {
-            return false;
-        }
-
-        if (fscanf(fptr, "%60[^\n]\n", cstr) == 1)
+        if (fscanf(fptr, ",%60[^\n]\n", cstr) == 1)
         {
             return true;
         }
@@ -39,7 +51,7 @@ namespace seneca
     bool read(Assessment &assess, FILE *fptr)
     {
         double mark;
-        char title[ASSESSMENT_TITLE_WIDTH];
+        char title[ASSESSMENT_TITLE_WIDTH + 1];
 
         if (read(mark, fptr) && read(title, fptr))
         {
@@ -71,7 +83,7 @@ namespace seneca
     {
         int numberOfElements;
         // Check number of element value
-        if (fscanf(fptr, "%d", &numberOfElements) != 1)
+        if (read(numberOfElements, fptr) != 1)
         {
             return 0;
         }

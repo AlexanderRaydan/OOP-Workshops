@@ -18,6 +18,7 @@ provided to complete my workshops and assignments.
 #include <iostream>
 #include "Room.h"
 #include "Guest.h"
+#include <cstring>
 
 using namespace std;
 
@@ -34,7 +35,7 @@ namespace seneca
 
         for (int i = 0; i < numberOfGuests; i++)
         {
-            set(room.m_guests[i], "", "", 0);
+            set(room.m_guests[i], nullptr, nullptr, 0);
         }
     }
 
@@ -46,8 +47,7 @@ namespace seneca
 
         if (room.m_noOfGuests > 0)
         {
-            cout << "Room number: " << room.m_roomNumber << endl;
-            cout << "Number of guests: " << room.m_noOfGuests << endl;
+            cout << "Room Number: " << room.m_roomNumber << endl;
 
             for (int i = 0; i < room.m_noOfGuests; i++)
             {
@@ -69,10 +69,9 @@ namespace seneca
         if (room.m_noOfGuests > 0)
         {
             cout << "Vacated!" << endl;
-            vacate(room);
         }
 
-        char roomNumber[MAX_NAME_LENGTH + 1];
+        char roomNumber[6];
 
         cout << "Room number: ";
         cin >> roomNumber;
@@ -88,8 +87,6 @@ namespace seneca
             cout << i + 1 << ":" << endl;
             book(room.m_guests[i]);
         }
-
-        print(room);
     }
 
     // vacates the room by dallocating all the memory used.
@@ -99,7 +96,9 @@ namespace seneca
         {
             vacate(room.m_guests[i]);
         }
+        delete[] room.m_guests;
 
+        room.m_guests = nullptr;
         room.m_noOfGuests = 0;
     }
 }

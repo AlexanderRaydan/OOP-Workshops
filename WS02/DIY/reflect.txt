@@ -1,0 +1,26 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #2 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+In this workshop we worked on file management (reading) and extracting the 
+information and placing it in a structure (Assessment). Being able to create 
+functions that have the same name but receive different parameters and have 
+different logics depending (read function).  Free memory in structures using 
+the "delete" function. 
+
+And finally in the "DIY" section dynamic memory management 
+in structures and their variables, creating new memory sections using the "new" 
+function followed by the data type to set the size of the memory space.
