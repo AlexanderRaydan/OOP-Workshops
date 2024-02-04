@@ -2,7 +2,7 @@ filename=$*
 
 rm -f output
 
-g++ -Wall -std=c++20 -g -o output $filename
+g++ -Wall -std=c++11 -g -o output $filename
 
 ./output
 rm output

@@ -1,0 +1,56 @@
+car class{
+
+    variables:
+    bool isEmpty()
+}
+
+void setEmpty(){
+    take all member variables and assign them default values
+
+    m_makeModel = nullptr;
+}
+
+void deallocateMemory(){
+
+    delete [] m_makeModel;
+    delete [] your number plate
+}
+
+void set(const char plateNo[] , const char* carMakeModel , const char*serviceDec, double serviceCost){
+
+    yo need to call your deallocate()
+    you need to call your setEmpty()
+
+    if(isEmpty()){
+        
+        strcpy
+        create DMA (dynamic memory allocation) for makeModel and then strcpy
+        create DMA for serviceDesc and then strcpy
+        assign the cost to the m_cost
+
+    }
+}
+
+void display() const{
+
+    cout.setf(ios::left);
+    cout.withf(15);
+    cout << "License plate: "
+    cout.unsetf(ios::left);
+}
+
+
+Customer class...{
+
+    deplate private menber variables...
+
+
+void set(int customerId, const char* name, const Car* car){
+
+    call the deallocate()
+    call the setEmpty()
+
+    set the variables, strcpy bla bla bla
+    similar than car class
+}
+}
