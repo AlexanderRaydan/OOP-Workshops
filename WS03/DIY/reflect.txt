@@ -1,0 +1,31 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #3 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+In completing this workshop, I've learned the fundamentals of object-oriented programming 
+in C++. This includes creating classes with member variables and functions, implementing 
+constructors and destructors, and effectively using input validation techniques.
+
+One of the key takeaways is understanding how to organize code by defining classes with 
+data and behavior. Input validation has been emphasized to prevent unexpected errors from 
+invalid user input, enhancing the robustness of the program.
+
+While there were some challenges in implementing complex logic and ensuring code correctness, 
+experimentation, debugging, and reference to course materials helped overcome these difficulties.
+
+Overall, this workshop has strengthened my understanding of OOP concepts and improved my 
+proficiency in C++ programming, providing valuable skills for developing robust and 
+maintainable software solutions.
