@@ -1,0 +1,29 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #4 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+Throughout this workshop, I delved into essential concepts of object-oriented 
+programming in C++, primarily focusing on constructors, destructors, modifiers, 
+and queries within a class. Constructors allowed me to initialize objects, 
+providing default values and setting up dynamic memory allocation as needed. 
+Destructors, on the other hand, ensured proper cleanup of resources, preventing 
+memory leaks and maintaining program efficiency.
+
+Modifiers enabled me to modify the state of objects, whether by changing member 
+variables or reallocating dynamic memory. This functionality was crucial for 
+implementing features like adding, modifying, or removing elements within a class. 
+Additionally, queries provided methods to retrieve information or perform checks 
+on object attributes, enhancing the versatility and usability of the class.
