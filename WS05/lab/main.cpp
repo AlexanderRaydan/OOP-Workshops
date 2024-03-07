@@ -24,7 +24,7 @@ bankAccount joe, cindy, raya, rohan, ira;
 
 int main()
 {
-	// Setup Accounts: Note account for Ira is intentionaly NOT setup 
+	// Setup Accounts: Note account for Ira is intentionaly NOT setup
 	cout << "** Testing Account Setup **" << endl;
 
 	if (!joe.setup("Joe Williams", true))
@@ -36,7 +36,7 @@ int main()
 	if (!rohan.setup("Rohan Kumar", true))
 		notifyFailure();
 
-	// Credit & Debit 
+	// Credit & Debit
 	if (!(joe += 100))
 		notifyFailure();
 	if (!(cindy += 0))
@@ -59,9 +59,9 @@ int main()
 
 	// Transfer between accounts
 	cout << "** Testing Fund Transfers **" << endl;
-	if (!(cindy<<joe))
+	if (!(cindy << joe))
 		notifyFailure();
-	if (!(raya<<rohan))
+	if (!(raya << rohan))
 		notifyFailure();
 	if (joe << ira)
 		notifyFailure();
@@ -71,10 +71,10 @@ int main()
 	// Make Multiple Transactions
 	for (int i = 1; i <= 10; i++)
 	{
-		raya	-= i;
-		cindy	-= i * 2;
-		joe		+= i;
-		rohan	+= i * 2;
+		raya -= i;
+		cindy -= i * 2;
+		joe += i;
+		rohan += i * 2;
 	}
 	displayAllAccts();
 
@@ -112,7 +112,8 @@ int main()
 
 	bankAccount twin1("Lian Zhou", false);
 	bankAccount twin2("Lian Zhou", false);
-	twin1 += 5; twin2 += 5;
+	twin1 += 5;
+	twin2 += 5;
 	if (!(twin1 == twin2))
 		notifyFailure();
 

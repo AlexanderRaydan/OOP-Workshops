@@ -1,0 +1,28 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #5 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+One of the key topics covered in the workshop was the override of operators. 
+Understanding when to use the override in a member function versus a helper 
+function was initially challenging for me. Specifically, discerning in which 
+cases to implement an operator overload as a member function and in which cases 
+to utilize a helper function was a bit difficult.
+
+To overcome this difficulty, I delved deeper into the course notes, paying close 
+attention to the examples provided. Additionally, I conducted experiments with my 
+own code, implementing different approaches to operator overloading. Through this 
+hands-on practice and thorough analysis, I gradually gained clarity on the 
+distinction between member functions and helper functions for operator overrides.
