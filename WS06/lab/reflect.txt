@@ -1,0 +1,31 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #6 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+During the workshop, I tackled essential object-oriented programming concepts such 
+as Copy Constructor, Copy Assignment Operator, Friend Class, Constructor, and Destructor. 
+Initially, grasping their nuances proved challenging, particularly in discerning when 
+and how to employ each effectively. Through practical experimentation and careful analysis 
+of examples, I gradually gained clarity on their applications.
+
+For instance, understanding the significance of Copy Constructor and Copy Assignment Operator 
+in managing object copies and the utility of Friend Classes in controlled access to 
+private members were key takeaways. Similarly, mastering the role of Constructors 
+and Destructors in initializing and deallocating resources contributed to a more 
+comprehensive understanding of class design and object lifecycle management. 
+Through iterative refinement of code and hands-on practice, I honed my skills in 
+implementing these concepts in real-world scenarios, ultimately bolstering my proficiency 
+in object-oriented programming.

@@ -18,7 +18,8 @@
 using namespace seneca;
 using namespace std;
 
-int main() {
+int main()
+{
 
    // 1. Default constructor test
    EmailFile eFile;
@@ -55,7 +56,6 @@ int main() {
    eFile3.fileCat(eFile5, "copyEmailFile.csv");
    EmailFile eFile6("copyEmailFile.csv");
    cout << eFile6 << endl;
-
 
    return 0;
 }
