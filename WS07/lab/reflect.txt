@@ -1,0 +1,37 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #7 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+During the workshop, I focused on incorporating date functionalities into 
+class structures effectively. Initially, understanding how to manage date-related
+data within classes posed a challenge. However, as I progressed, I grasped the 
+importance of encapsulation and abstraction in organizing date information.
+
+Implementing methods to handle date components and format date output highlighted
+the significance of encapsulating data and behavior within classes. Additionally,
+integrating date functionalities into existing classes underscored the flexibility
+of object-oriented design principles.
+
+Through rigorous testing and debugging, I ensured the accuracy and consistency 
+of date calculations across different scenarios. Overall, the workshop enhanced 
+my understanding of class design and object-oriented programming principles, 
+particularly in managing date-related data effectively.
+
+
+
+
+
+

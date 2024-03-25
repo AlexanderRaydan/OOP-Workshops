@@ -1,13 +1,8 @@
 /***********************************************************************
-// Workshop # 8, Virtual Functions and Abstract Base Classes
+// OOP244 Workshop #7: Tester Program
 //
-// File: iAccount.h
-// Version 1.0
-// Date:
-// Author: 
-// Description
-// This file defines the iAccount interface
-// -----------------------------------------------------------
-// Name            Date            Reason
+// File:    main.cpp
+// Version: 1.0
+// Author:  Alexander
 //
 ***********************************************************************/
