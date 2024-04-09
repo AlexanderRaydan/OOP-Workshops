@@ -1,13 +1,29 @@
 /***********************************************************************
-// Workshop # 8, Virtual Functions and Abstract Base Classes
+// OOP244 Workshop #8:
 //
-// File: Account.h
-// Version 1.0
-// Date:
-// Author: 
-// Description
-// This file defines the Account class
-// -----------------------------------------------------------
-// Name            Date            Reason
+// Version: 1.0
+// Author:  Alexander Raydan
 //
 ***********************************************************************/
+#ifndef SENECA_ACCOUNT_H_
+#define SENECA_ACCOUNT_H_
+#include <iostream>
+#include "iAccount.h"
+
+using namespace std;
+namespace seneca
+{
+    class Account : public iAccount
+    {
+        double m_balance;
+
+    protected:
+        double balance() const;
+
+    public:
+        Account(double initialBalance = 0.0);
+        bool credit(double value);
+        bool debit(double value);
+    };
+}
+#endif

@@ -1,0 +1,34 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #9 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+
+Focused on implementing classes for managing library items and books in C++. Key concepts 
+explored included copy constructors, copy assignment operators, dynamic memory management, 
+and polymorphism.
+
+The provided code demonstrated proper implementation of copy constructors and copy assignment
+operators to ensure correct duplication of object data, especially for dynamically allocated memory.
+
+Memory management was highlighted through the implementation of destructors and manual 
+deallocation of dynamically allocated memory, essential for preventing memory leaks and 
+managing resources efficiently.
+
+
+
+
+
+

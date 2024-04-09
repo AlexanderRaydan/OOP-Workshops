@@ -1,0 +1,37 @@
+/*
+////////////////////////////////////////////////////////////////////////////
+
+                             Workshop - #8 reflection
+
+Full Name  : Alexander David Raydan Gonzalez
+Student ID#: 124348236
+Email      : adraydan-gonzalez@myseneca.ca
+Section    : ZRA
+
+Authenticity Declaration:
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+
+In Workshop #8, I focused on implementing abstract base classes and derived classes 
+in C++, exploring concepts like polymorphism and inheritance. Understanding abstract
+classes and pure virtual functions initially posed a challenge, but as I progressed, 
+I grasped their importance in creating flexible class hierarchies.
+
+The implementation of the iAccount interface as an abstract base class provided a 
+blueprint for creating different types of accounts with shared functionalities. By 
+defining pure virtual functions, I learned how to enforce a common interface for 
+derived classes.
+
+I also explored inheritance by deriving classes like ChequingAccount and SavingsAccount 
+from the Account base class. This allowed for specialized functionality while maintaining 
+consistency through polymorphism.
+
+
+
+
+
+

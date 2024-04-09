@@ -1,0 +1,11 @@
+Book.cpp: In destructor ‘virtual seneca::Book::~Book()’:
+Book.cpp:56:35: error: no matching function for call to ‘seneca::Book::~Book()’
+         LibraryItem::~LibraryItem();
+                                   ^
+Book.cpp:56:35: note: candidate is:
+In file included from Book.h:17:0,
+                 from Book.cpp:18:
+LibraryItem.h:31:17: note: virtual seneca::LibraryItem::~LibraryItem()
+         virtual ~LibraryItem();
+                 ^
+LibraryItem.h:31:17: note:   candidate expects 1 argument, 0 provided

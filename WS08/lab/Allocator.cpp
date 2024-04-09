@@ -1,7 +1,7 @@
 /***********************************************************************
 // Workshop # 8, Virtual Functions and Abstract Base Classes
 //
-// File: allocator.cpp 
+// File: allocator.cpp
 // Version 2.0
 // Date:
 // Author: Chris Szalwinski, Heidar Davoudi
@@ -11,10 +11,11 @@
 // Name            Date            Reason
 //
 ***********************************************************************/
-#include "SavingsAccount.h" 
-#include "ChequingAccount.h" 
+#include "SavingsAccount.h"
+#include "ChequingAccount.h"
 
-namespace seneca {
+namespace seneca
+{
 
 	// account rates and charges
 	//
@@ -24,9 +25,11 @@ namespace seneca {
 
 	// calls the appropriate constructor
 	//
-	iAccount* CreateAccount(const char* str, double balance) {
-		iAccount* account = nullptr;
-		switch (str[0]) {
+	iAccount *CreateAccount(const char *str, double balance)
+	{
+		iAccount *account = nullptr;
+		switch (str[0])
+		{
 		case 'S':
 			account = new SavingsAccount(balance, interestRate);
 			break;

@@ -1,14 +1,26 @@
 /***********************************************************************
-// Workshop # 8, Virtual Functions and Abstract Base Classes
+// OOP244 Workshop #8:
 //
-// File: SavingAccount.h
-// Version 1.0
-// Date:
-// Author:  
-// Description
-// This file defines the SavingsAccount class
-// -----------------------------------------------------------
-// Name            Date            Reason
+// Version: 1.0
+// Author:  Alexander Raydan
 //
 ***********************************************************************/
+#ifndef SENECA_SAVINGS_ACCOUNT_H_
+#define SENECA_SAVINGS_ACCOUNT_H_
+#include <iostream>
+#include "Account.h"
 
+using namespace std;
+namespace seneca
+{
+	class SavingsAccount : public Account
+	{
+		double m_interest;
+
+	public:
+		SavingsAccount(double initialBalance, double interest);
+		void monthEnd();
+		void display(std::ostream &ostr) const;
+	};
+}
+#endif
